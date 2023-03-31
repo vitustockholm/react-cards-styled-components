@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.section--default-padding {
+  padding: 80px 0;
+}
+.pricing-section {
+  background: #f5f5f5;
+  background: linear-gradient(to bottom, #f5f5f5 0%, #fff 100%);
+  text-align: center;
+  padding: 80px 0;
+}
+.pricing-section__title {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+.pricing-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  margin: 0 auto 30px;
+  max-width: 300px;
+  text-align: left;
+}
+.pricing-card--best {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 1;
+}
+.pricing-card__header {
+  text-align: center;
+}
+.pricing-card__price {
+  font-size: 50px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+.pricing-card__period {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 30px;
+  display: block;
+}
+.pricing-card__features {
+  margin-bottom: 30px;
+}
+.pricing-card__feature {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.pricing-card__feature-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+.pricing-card__button {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+.pricing-card--best .pricing-card__button {
+  background-color: #3e8eff;
+}
+.pricing-card__button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
